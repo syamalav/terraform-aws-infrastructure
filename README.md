@@ -6,41 +6,45 @@ It includes examples for deploying core AWS resources and understanding Terrafor
 ## Infrastructure Components
 This project provisions the following AWS resources:
 
-VPC
-Subnets
-Security Groups
-EC2 Instance
+- VPC
+- Subnets
+- Security Groups
+- EC2 Instance
 
 ## Prerequisites
 Before running Terraform, ensure the following tools are installed:
 
-Terraform
-AWS CLI
-Configured AWS credentials (aws configure)
-Terraform Workflow
+- Terraform
+- AWS CLI
+- Configured AWS credentials (aws configure)
+
+## Terraform Workflow
 
 Initialize Terraform:
 terraform init
+
 Preview infrastructure changes:
 terraform plan
+
 Apply infrastructure changes:
 terraform apply
+
 Destroy infrastructure:
 terraform destroy
-Terraform Concepts Covered
 
-## Infrastructure as Code (IaC)
+## Terraform Concepts Covered
 
-Providers and Resources
-Variables and Outputs
-Terraform State Management
-Remote Backend (S3)
-State Locking with DynamoDB
-Terraform Modules
-Workspaces for environment management
+- Infrastructure as Code (IaC)
+- Providers and Resources
+- Variables and Outputs
+- Terraform State Management
+- Remote Backend (S3)
+- State Locking with DynamoDB
+- Terraform Modules
+- Workspaces for environment management
 
-```
 Project Structure
+```
 terraform-aws-infrastructure
 │
 ├── provider.tf
@@ -51,9 +55,9 @@ terraform-aws-infrastructure
 ```
 
 ## Tools Used
-Terraform
-AWS
-Git
+- Terraform
+- AWS
+- Git
 
 ## Author
 
