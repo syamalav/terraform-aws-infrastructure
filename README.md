@@ -39,7 +39,7 @@ State Locking with DynamoDB
 Terraform Modules
 Workspaces for environment management
 
-``
+```
 Project Structure
 terraform-aws-infrastructure
 │
@@ -48,7 +48,8 @@ terraform-aws-infrastructure
 ├── variables.tf
 ├── outputs.tf
 └── README.md
-``
+```
+
 Tools Used
 Terraform
 AWS
