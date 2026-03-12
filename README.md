@@ -50,11 +50,12 @@ terraform-aws-infrastructure
 └── README.md
 ```
 
-Tools Used
+## Tools Used
 Terraform
 AWS
 Git
-Author
+
+## Author
 
 Syamala Veerella
 
